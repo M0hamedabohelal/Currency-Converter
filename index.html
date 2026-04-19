@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="content">
+      <div class="container">
+        <p>Currency Converter</p>
+        <div class="details">
+          <div class="current-pound">
+            <div class="currency">
+              <select name="currency" id="currency" title="currency">
+                <option value="AUD">AUD</option>
+                <option value="CAD">CAD</option>
+                <option value="EUR">EUR</option>
+                <option value="GBP">GBP</option>
+                <option value="INR">INR</option>
+                <option value="JPY">JPY</option>
+                <option value="USD" selected>USD</option>
+              </select>
+            </div>
+            <div class="num">
+              <input
+                type="number"
+                name="number"
+                id="number"
+                title="number"
+                value="1"
+              />
+            </div>
+          </div>
+          <div class="current-converter">
+            <div class="currency-to">
+              <select name="currency-to" id="currency-to" title="currency-to">
+                <option value="AUD">AUD</option>
+                <option value="CAD">CAD</option>
+                <option value="EUR">EUR</option>
+                <option value="GBP">GBP</option>
+                <option value="INR">INR</option>
+                <option value="JPY">JPY</option>
+                <option value="USD">USD</option>
+              </select>
+            </div>
+            <div class="numto">
+              1
+            </div>
+          </div>
+        </div>
+        <p class="result"></p>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
